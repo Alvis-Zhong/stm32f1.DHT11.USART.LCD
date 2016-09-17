@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\STM32F1_Library_ILI9341_LCD\USER\drive_LCD_ili9341;..\..\Libraries\CMSIS;..\..\Libraries\FWlib\inc;..\..\USER\dht11;..\..\USER\systick;..\..\USER\usart;..\..\USER</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\Libraries\FWlib\inc;..\..\USER\dht11;..\..\USER\systick;..\..\USER\usart;..\..\USER;..\..\USER\drive_LCD_ili9341</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
