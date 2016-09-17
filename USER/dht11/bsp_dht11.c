@@ -113,7 +113,8 @@ uint8_t Read_TempAndHumidity (DHT11_DATA_TypeDef *DHT11_DATA)
 		//主机将总线拉高
 		DHT11_DOUT_1 ;
 		//检查校验和是否符合校验标准，如果符合，数据传输正确，返回SUCCESS ;否则,返回ERROR ;
-		if(DHT11_DATA->check_sum == DHT11_DATA->humi_int + DHT11_DATA->humi_deci + DHT11_DATA->temp_int + DHT11_DATA->temp_deci )
+		if(DHT11_DATA->check_sum == DHT11_DATA->humi_int + DHT11_DATA->humi_deci + DHT11_DATA->temp_int + 
+			DHT11_DATA->temp_deci )
 			return SUCCESS ;
 		else
 			return ERROR ;

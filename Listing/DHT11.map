@@ -798,18 +798,18 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x00000130   Data   RO            3    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x00000000   Code   RO          999  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x00000004   Code   RO         1263    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x00000004   Code   RO         1266    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x00000000   Code   RO         1268    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x00000000   Code   RO         1270    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x00000008   Code   RO         1271    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x00000000   Code   RO         1273    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x00000000   Code   RO         1275    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x00000004   Code   RO         1264    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000130   0x00000000   Code   RO          996  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x00000004   Code   RO         1260    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x00000004   Code   RO         1263    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x00000000   Code   RO         1265    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x00000000   Code   RO         1267    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x00000008   Code   RO         1268    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x00000000   Code   RO         1270    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x00000000   Code   RO         1272    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x00000004   Code   RO         1261    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x00000024   Code   RO            4    .text               startup_stm32f10x_hd.o
-    0x08000168   0x0000002c   Code   RO         1278    .text               mc_w.l(uidiv.o)
-    0x08000194   0x00000024   Code   RO         1293    .text               mc_w.l(init.o)
+    0x08000168   0x0000002c   Code   RO         1275    .text               mc_w.l(uidiv.o)
+    0x08000194   0x00000024   Code   RO         1290    .text               mc_w.l(init.o)
     0x080001b8   0x00000004   Code   RO          765    i.BusFault_Handler  stm32f10x_it.o
     0x080001bc   0x00000020   Code   RO          876    i.DHT11_Init        bsp_dht11.o
     0x080001dc   0x00000002   Code   RO          766    i.DebugMon_Handler  stm32f10x_it.o
@@ -858,19 +858,19 @@ Memory Map of the image
     0x08000d18   0x000000d8   Code   RO          448    i.USART_Init        stm32f10x_usart.o
     0x08000df0   0x00000008   Code   RO          458    i.USART_SendData    stm32f10x_usart.o
     0x08000df8   0x00000004   Code   RO          772    i.UsageFault_Handler  stm32f10x_it.o
-    0x08000dfc   0x00000020   Code   RO         1047    i.__0printf$1       mc_w.l(printf1.o)
-    0x08000e1c   0x0000000e   Code   RO         1305    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08000e2a   0x00000002   Code   RO         1306    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08000e2c   0x0000000e   Code   RO         1307    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08000dfc   0x00000020   Code   RO         1044    i.__0printf$1       mc_w.l(printf1.o)
+    0x08000e1c   0x0000000e   Code   RO         1302    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08000e2a   0x00000002   Code   RO         1303    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08000e2c   0x0000000e   Code   RO         1304    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08000e3a   0x00000002   PAD
-    0x08000e3c   0x00000154   Code   RO         1054    i._printf_core      mc_w.l(printf1.o)
+    0x08000e3c   0x00000154   Code   RO         1051    i._printf_core      mc_w.l(printf1.o)
     0x08000f90   0x00000028   Code   RO          823    i.delay_us          bsp_systick.o
     0x08000fb8   0x00000024   Code   RO          853    i.fputc             bsp_usart.o
     0x08000fdc   0x000001e8   Code   RO          737    i.main              main.o
     0x080011c4   0x0000007c   Code   RO          824    i.systick_init      bsp_systick.o
     0x08001240   0x00000080   Code   RO          854    i.usart_Config      bsp_usart.o
     0x080012c0   0x0000048c   Data   RO          924    .constdata          drive_lcd_ili9341.o
-    0x0800174c   0x00000020   Data   RO         1303    Region$$Table       anon$$obj.o
+    0x0800174c   0x00000020   Data   RO         1300    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000430, Max: 0x00010000, ABSOLUTE)
@@ -880,7 +880,7 @@ Memory Map of the image
     0x20000000   0x00000014   Data   RW           28    .data               system_stm32f10x.o
     0x20000014   0x00000014   Data   RW          269    .data               stm32f10x_rcc.o
     0x20000028   0x00000004   Data   RW          825    .data               bsp_systick.o
-    0x2000002c   0x00000004   Data   RW         1277    .data               mc_w.l(stdout.o)
+    0x2000002c   0x00000004   Data   RW         1274    .data               mc_w.l(stdout.o)
     0x20000030   0x00000400   Zero   RW            1    STACK               startup_stm32f10x_hd.o
 
 
